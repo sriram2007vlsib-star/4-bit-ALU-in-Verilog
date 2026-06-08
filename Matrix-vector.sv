@@ -10,7 +10,7 @@ module mat_vec#(
   
 
   logic[$clog2(N)-1:0] row;
-  logic[$clog2(N)-1:0] index;
+  logic[$clog2(M)-1:0] index;
   logic[31:0] acc;
   logic[15:0] product;
   
